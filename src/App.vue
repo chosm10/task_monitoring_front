@@ -1,11 +1,10 @@
 <template>
-  <div id="app">
-    Hello
+  <v-app>
     <Header/>
-    <div id="content" class="content">
-      <router-view></router-view>
-    </div>
-  </div>
+    <v-main>
+      <router-view/>
+    </v-main>
+  </v-app>
 </template>
 
 <script>
@@ -18,7 +17,3 @@ export default {
   }
 }
 </script>
-
-<style>
-
-</style>
