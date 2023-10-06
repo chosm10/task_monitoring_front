@@ -1,3 +1,5 @@
+#NODEJS VERSION v13.14.0/
+
 # Vue 설치 방법
 npm install -g @vue/cli
 
